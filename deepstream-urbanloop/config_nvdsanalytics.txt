@@ -1,0 +1,20 @@
+# The values in the config file are overridden by values set through GObject
+# properties.
+
+[property]
+enable=1
+#Width height used for configuration to which below configs are configured
+config-width=1920
+config-height=1080
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=2
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+# Region of interest for the urbanloop capsule
+[roi-filtering-stream-0]
+enable=1
+roi-Person-0=360;140;1560;140;1560;940;360;940
+class-id=2
